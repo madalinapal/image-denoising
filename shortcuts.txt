@@ -1,0 +1,2 @@
+Curs 3 - NLP MATLAB fminunbd
+Curs 6 - pag 58 expresie f pt SVM
