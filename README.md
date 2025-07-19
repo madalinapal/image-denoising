@@ -19,7 +19,7 @@ Where:
 
 ---
 
-## ⚙ Methods Implemented
+##  Methods Implemented
 
 We implemented three optimization methods to solve the denoising problem:
 
