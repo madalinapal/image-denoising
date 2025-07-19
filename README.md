@@ -2,7 +2,7 @@
 
 This project tackles the problem of image denoising by formulating a constrained optimization model aimed at recovering a clean image 𝑋, which is as close as possible to the noisy observation 𝐼𝑚. Instead of relying on traditional denoising techniques such as Gaussian filters, median filters, or deep learning models, this work focuses on a Total Variation (TV)-based approach, known for preserving edges while removing noise.
 
-** Objective Function **
+**Objective Function**
 
 We aim to solve the following optimization problem:
 
@@ -14,7 +14,7 @@ where:
 - ||·||_F is the Frobenius norm
 - TV(X) is the total variation of the image
 
-** Methods Implemented **
+**Methods Implemented**
 
 The following optimization algorithms were used to solve the problem:
 
@@ -22,7 +22,7 @@ The following optimization algorithms were used to solve the problem:
 - ADMM (Alternating Direction Method of Multipliers): A splitting technique particularly suited for non-smooth problems like TV regularization.
 - fmincon: MATLAB’s built-in constrained optimization solver, used to validate results and compare performance.
 
-** Code Structure **
+**Code Structure**
 
 - main.m: Entry point to run different optimization methods and compare results.
 - projected_gradient_method.m, admm_denoising_tv.m, solve_fmincon.m: Implementations of the respective methods.
