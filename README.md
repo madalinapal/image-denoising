@@ -73,9 +73,4 @@ We implemented three optimization methods to solve the denoising problem:
 Faculty of Automatic Control and Computers  
 Bucharest, Romania
 
----
-
-##  License
-
-This project was developed for academic purposes. If you use or adapt the code, please cite the author or give credit in your project.
 
